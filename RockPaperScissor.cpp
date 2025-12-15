@@ -93,9 +93,15 @@ void start_game() {
     std::string computer_shoot;
 
     do {
-        std::cout << "####################################\n";
-        std::cout << "  Rock, Paper, Scissor, shoot!!\n";
-        std::cout << "####################################\n";
+        std::cout << "###########################################\n";
+        std::cout << "*******************************************\n";
+        std::cout << "                How to play                \n";
+        std::cout << "*******************************************\n";
+        std::cout << "Type either one of rock, paper or scissor ";
+        std::cout << "\n";
+        std::cout << "\n";
+        std::cout << "Rock, Paper, Scissor, shoot!!\n";
+        std::cout << "###########################################\n";
         player_shoot = shoot_player();
     } while (player_shoot != "Rock" && player_shoot != "Paper" && player_shoot != "Scissor");
 

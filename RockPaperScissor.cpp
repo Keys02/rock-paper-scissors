@@ -97,7 +97,7 @@ void start_game() {
                   << "*******************************************\n"
                   << "                How to play                \n"
                   << "*******************************************\n"
-                  << "Type either one of rock, paper or scissor "
+                  << "Type either one of Rock, Paper or Scissor"
                   << "\n"
                   << "\n"
                   << "Rock, Paper, Scissor, shoot!!\n"
